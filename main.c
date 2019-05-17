@@ -51,8 +51,8 @@ const int A1_height = 4;
 
 const long double A2_entries[] = {1, -2, 0.33, 12120, 1,
                                   9, -0.229, 1, 10, -1.2};
-const int A1_width = 5;
-const int A1_height = 2;
+const int A2_width = 5;
+const int A2_height = 2;
 
 
 const long double A3_entries[] = {2};
