@@ -19,7 +19,7 @@ long double matrix_det(const struct matrix * const A) {
   } else if (m == 1) {
     return matrix_elem(A, 1, 1);
   } else {
-    int det_total = 0;
+    long double det_total = 0;
     for (int i = 1; i <= m; i++) {
       struct matrix *submatrix = matrix_dupe(A);
       matrix_del_col(submatrix, 1);
