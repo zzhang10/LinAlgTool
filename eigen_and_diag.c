@@ -269,7 +269,8 @@ int eigenvectors_3x3(const struct matrix * const A, struct vector ** const v1,
       lambda3 = lambda1;
       lambda1 = temp;
     }
-    printf("%Lf, %Lf, %Lf\n", lambda1,lambda2, lambda3);
+    // uncomment to show eigenvalues
+    // printf("%Lf, %Lf, %Lf\n", lambda1,lambda2, lambda3);
     int first_part_total = 0;
     long double entries[] = {a - lambda1, b, c, d, e - lambda1, f, g, h,
                              i - lambda1};
