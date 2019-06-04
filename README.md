@@ -1,5 +1,7 @@
 # Linear Algebra I Toolbox
 
+## Note: Currently optimized for Seashell environment. May not compile/link in other environments
+
 ### What tools does it contain?
 You may find functions that cover most of the stuff you learn in Linear Algebra 1, such as vector and matrix operations, RREF, inverses, determinants and diagonalization (up to 3 x 3). Contact me if you would like to see anything added.
 
